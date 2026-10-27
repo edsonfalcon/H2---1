@@ -396,3 +396,24 @@ No entregar backend, dumps, seeds ni credenciales (no suban la contraseña de la
 - React Router: https://reactrouter.com/
 - View Transition API: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
 - Scroll-driven animations: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
+
+---
+
+## Integrantes
+
+1. Edson Yener Falcon Jimenez — código UTEC `202510492` — GitHub: `edsonfalcon`.
+2. Omar Alonso Guzmán Harvey — código UTEC `202510519` — GitHub: `Mr_Ornitorrinco`.
+
+> Nota: el enunciado original contempla equipos de tres integrantes. Esta tripulación está formada por
+> dos integrantes; no se ha añadido información de una tercera persona inexistente.
+
+## Ejecutar el proyecto
+
+1. Usa Node.js 24 LTS y npm.
+2. Copia `.env.example` como `.env` y conserva la URL pública de la API indicada allí.
+3. Instala las dependencias con `npm install`.
+4. Inicia el entorno local con `npm run dev`.
+5. Para comprobar el tipo y generar la versión de producción, ejecuta `npm run build`.
+
+La contraseña de la tripulación nunca se guarda en este repositorio. La aplicación solicita el correo y
+la contraseña al iniciar sesión; la sesión se conserva solo en el almacenamiento local del navegador.
